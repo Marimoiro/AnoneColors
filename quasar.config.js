@@ -21,7 +21,7 @@ module.exports = configure(function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://legacy-app.quasar.dev/quasar-cli-vite-v1/boot-files
     boot: [
-      
+
       'axios',
     ],
 
@@ -58,7 +58,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/AnoneColors/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
