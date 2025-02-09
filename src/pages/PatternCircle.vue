@@ -64,7 +64,7 @@ function downloadSvgAsPng() {
     // a要素を作ってダウンロード
     const a = document.createElement('a');
     a.href = imgUrl;
-    a.download = `MyPng.png`;
+    a.download = `${props.baseColorIndex}_${props.subColorIndex}.png`;
     document.body.appendChild(a);
     a.click();
     //document.body.removeChild(a);
