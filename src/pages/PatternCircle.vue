@@ -11,6 +11,14 @@ const props = defineProps({
     type: String,
     default: 'black'
   },
+  baseColorIndex: {
+    type: Number,
+    default: 0
+  },
+  subColorIndex: {
+    type: Number,
+    default: 1
+  },
   title: {
     type: String,
     default: 'title'
@@ -79,7 +87,7 @@ function downloadSvgAsPng() {
     <circle cx="50" cy="50" r="40" :stroke="props.baseColor" stroke-width="2" :fill="props.baseColor" />
     <line x1="5" y1="105" x2="105" y2="5" :stroke="props.subColor" stroke-width="5" />
     <line x1="-5" y1="95" x2="95" y2="-5" :stroke="props.subColor" stroke-width="5" />
-    <text x="50%" y="95" font-size="5" :fill='props.isDark  ? "white" : "black"' text-anchor="middle" alignment-baseline="middle" >{{props.title}}</text>
+    <text x="50%" y="95" font-size="5" :fill='props.isDark  ? "white" : "black"' text-anchor="middle" alignment-baseline="middle" > 色番号: {{props.baseColorIndex}} / {{ props.subColorIndex }}</text>
   </svg>
   <q-btn @click="downloadSvgAsPng">Download</q-btn>
 
