@@ -32,7 +32,7 @@
         align="justify"
         narrow-indicator
       >
-        <q-tab v-for="pattern in patterns" :key="pattern.title" :name="pattern.index" :label="pattern.title">
+        <q-tab v-for="pattern in patterns" :key="pattern.title" :name="pattern.index">
           {{ pattern.baseColorIndex }} / {{ pattern.subColorIndex }}
         </q-tab>
         <q-tab name="add" @click="addPattern" >
