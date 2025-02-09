@@ -1,41 +1,8 @@
 # Anone Color (anone-color)
 
-Anone Color
+このページはアノネさんのジャージ企画のファンメイドの組み合わせを作れるやつです。
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+2025/02/09～のキャンペーン用の設定になっています。
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+ページはこちらから  
+https://marimoiro.github.io/AnoneColors/#/
